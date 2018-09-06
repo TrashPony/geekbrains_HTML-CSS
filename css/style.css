@@ -1,0 +1,73 @@
+body {
+    background-color: #f8f8f8;
+}
+
+#siteMenu {
+    list-style-type: none;
+}
+
+#siteMenu a {
+    color: #dc4409;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.itemHeaders {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.itemHeaders.description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.itemHeaders.description.detailed {
+    color: #484343;
+    font-size: 16px;
+    /* font-weight: 400; отнаследовано от itemHeaders */
+    line-height: 24px;
+    text-align: left;
+}
+
+.itemCharacteristicsList {
+    list-style-image: url(../img/ul.png);
+    list-style-position: inside;
+}
+
+.itemCharacteristicsList {
+    color: #dc4409;
+    font-size: 22px;
+    font-style: oblique;
+    font-weight: 800;
+}
+
+.contactsInput {
+    height: 15px;
+    width: 165px;
+    color: #dc4409;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.itemDetailImage, .catalogImageItem {
+
+    box-shadow: 0 0 10px 10px rgb(255, 149, 32);
+}
+
+.itemDetailImage {
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.catalogImageItem {
+    width: 140px;
+    height: 100px;
+    float: left;
+    margin-right: 25px;
+}

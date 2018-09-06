@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Game Market</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div style="width: 800px; margin: auto">
     <h3> Меню магазина: </h3>
-    <ul>
+    <ul id="siteMenu">
         <li> <a href="index.html"> Главная </a> </li>
         <li> <a href="catalog/catalog.html"> Каталог </a> </li>
-        <li> <a href=""> Контакты </a> </li>
+        <li> <a href="contacts.html"> Контакты </a> </li>
     </ul>
     <hr>
     <h1> Контакты </h1>
@@ -18,8 +19,8 @@
         <p> Для связи с нашим магазином пожалуйста заполните форму ниже и мы обязательно прочтем <s>(нет)</s> ваше письмо!</p>
     <form>
         <p>
-            <span> Ваше Имя: <input title="name" type="text" placeholder="Ваше имя"></span>
-            <span> Ваш e-mail: <input title="email" type="email" placeholder="E-mail"></span>
+            <span> Ваше Имя: <input class="contactsInput" title="name" type="text" placeholder="Ваше имя"></span>
+            <span> Ваш e-mail: <input class="contactsInput" title="email" type="email" placeholder="E-mail"></span>
         </p>
 
         <span> Вам нравиться магазин: Да <input title="like" type="radio" name="like">  Нет <input title="like" type="radio" name="like" checked> </span>

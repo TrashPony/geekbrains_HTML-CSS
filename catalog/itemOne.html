@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Game Market</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <div style="width: 800px; margin: auto">
     <h3> Меню магазина: </h3>
-    <ul>
+    <ul id="siteMenu">
         <li> <a href="../index.html"> Главная </a> </li>
         <li> <a href="catalog.html"> Каталог </a> </li>
         <li> <a href="../contacts.html"> Контакты </a> </li>
@@ -16,14 +17,14 @@
 
     <h1> Dragon's dungeon </h1>
 
-    <h3> Описание товара </h3>
-    <a href="../img/d&d.png"><img src="../img/d&d.png"></a>
+    <h3 class="itemHeaders description"> Описание товара </h3>
+    <a href="../img/Jump_on_the_Beats.png" target="_blank"><img class="itemDetailImage" src="../img/d&d.png"></a>
     <!-- она и так в полном размере 6_9 -->
     <p> Для ценителей Рогаликов и любителей РПГ. Соберите всю вашу доблесть и отвагу, спустившись
         в полное опасностей подземелье дракона. </p>
 
-    <h3> Характиристики товара </h3>
-    <ul>
+    <h3 class="itemHeaders description detailed"> Характиристики товара </h3>
+    <ul class="itemCharacteristicsList">
         <li> более 100 видов монстров; </li>
         <li> более 500 предметов; </li>
         <li> 6 персонажей, со своими уникальными навыками; </li>
@@ -32,7 +33,7 @@
         <li> случайная генерация лабиринтов. </li>
     </ul>
 
-    <h3> Подробное описание товара </h3>
+    <h3 class="itemHeaders"> Подробное описание товара </h3>
     <p> Сражайтесь с кровожадными чудовищами, изучайте тёмные закоулки лабиринтов в поисках нового снаряжения и
         бесценных сокровищ, повышайте свои навыки при помощи нестандартной системы развития персонажа и одержите победу
         над ужасным драконом. Случайная генерация уровней, разнообразная экипировка, множество видов противников и
