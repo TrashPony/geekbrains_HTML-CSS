@@ -3,46 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Game Market</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/catalog.css">
 </head>
 <body>
 <div style="width: 800px; margin: auto">
-    <h3> Меню магазина: </h3>
-    <ul id="siteMenu">
-        <li> <a href="../index.html"> Главная </a> </li>
-        <li> <a href="catalog.html"> Каталог </a> </li>
-        <li> <a href="../contacts.html"> Контакты </a> </li>
-    </ul>
+    <div class="header">
+        <div class="logo"></div>
+        <ul id="siteMenu">
+            <li><a href="../index.html"> Главная </a></li>
+            <li><a href="catalog.html"> Каталог </a></li>
+            <li><a href="../contacts.html"> Контакты </a></li>
+        </ul>
+    </div>
     <hr>
     <h1> Каталог игр </h1>
-    <ul style="list-style-type: none;">
+    <ul id="contentList">
         <li>
             <h3> Dragon's & Dungeon </h3>
-            <p style="height: 100px"><img src="../img/d&d.png" class="catalogImageItem">
-                 &nbsp; Для ценителей Рогаликов и любителей РПГ. Соберите всю вашу доблесть и отвагу, спустившись
-                в полное опасностей подземелье дракона. </p>
-            <a href="itemOne.html"> Подробнее </a>
+            <p class="descriptionParagraph"> <a href="itemOne.html"><img src="../img/d&d.png" class="catalogImageItem"></a>
+                &nbsp; Для ценителей Рогаликов и любителей РПГ. Соберите всю вашу доблесть и отвагу, спустившись
+                в полное опасностей подземелье дракона.  <br><br> <a class="detailedLink" href="itemOne.html"> Подробнее </a>
+            </p>
         </li>
 
 
         <li>
             <h3> Jump on the Beats </h3>
-            <p style="height: 100px"><img src="../img/Jump_on_the_Beats.png" class="catalogImageItem">
-                &nbsp; В Jump on the Beats, Вам предстоит взять управление над очень милым существом, то есть мной. Я должен
-                пропрыгать по Битам ваших любимых песен! </p>
-            <a href="itemTwo.html"> Подробнее </a>
+            <p class="descriptionParagraph"><a href="itemTwo.html"> <img src="../img/Jump_on_the_Beats.png" class="catalogImageItem"></a>
+                &nbsp; В Jump on the Beats, Вам предстоит взять управление над очень милым существом, то есть мной. Я
+                должен пропрыгать по Битам ваших любимых песен!  <br><br>
+                <a class="detailedLink" href="itemTwo.html"> Подробнее </a>
+            </p>
         </li>
 
         <li>
             <h3> Good Knight Story </h3>
-            <p style="height: 100px"><img src="../img/Good_Knight_Story.png" class="catalogImageItem">
-                 &nbsp; Что произошло вчера вечером?! Присоединяйся к нашему нелепому герою, проснувшемуся в темнице с разбитой
-                головой и провалами в памяти. </p>
-            <a href="itemThree.html"> Подробнее </a>
+            <p class="descriptionParagraph"><a href="itemThree.html"><img src="../img/Good_Knight_Story.png" class="catalogImageItem"></a>
+                &nbsp; Что произошло вчера вечером?! Присоединяйся к нашему нелепому герою, проснувшемуся в темнице с
+                разбитой головой и провалами в памяти. <br><br> <a class="detailedLink" href="itemThree.html"> Подробнее </a>
+            </p>
         </li>
     </ul>
-    <hr>
-    <span> &#169; Все права защищены</span>
+
+    <div class="footer">
+        <hr>
+        <span> &#169; Все права защищены</span>
+    </div>
 </div>
 </body>
 </html>

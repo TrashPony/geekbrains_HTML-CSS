@@ -3,46 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Game Market</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
-<div style="width: 800px; margin: auto">
-    <h3> Меню магазина: </h3>
-    <ul id="siteMenu">
-        <li> <a href="../index.html"> Главная </a> </li>
-        <li> <a href="catalog.html"> Каталог </a> </li>
-        <li> <a href="../contacts.html"> Контакты </a> </li>
-    </ul>
-    <hr>
+    <div style="width: 800px; margin: auto">
+        <div class="header">
+            <div class="logo"></div>
+            <ul id="siteMenu">
+                <li><a href="../index.html"> Главная </a></li>
+                <li><a href="catalog.html"> Каталог </a></li>
+                <li><a href="../contacts.html"> Контакты </a></li>
+            </ul>
+        </div>
+        <hr>
 
-    <h1> Jump on the Beats </h1>
+        <h1> Jump on the Beats </h1>
 
-    <h3 class="itemHeaders description"> Описание товара </h3>
-    <a href="../img/Jump_on_the_Beats.png" target="_blank"><img class="itemDetailImage" src="../img/Jump_on_the_Beats.png"></a>
-    <!-- она и так в полном размере 6_9 -->
-    <p> В Jump on the Beats, Вам предстоит взять управление над очень милым существом, то есть мной. Я должен
-        пропрыгать по Битам ваших любимых песен! </p>
+        <h3 class="itemHeaders"> Описание товара </h3>
+        <a href="../img/Jump_on_the_Beats.png" target="_blank"><img class="itemDetailImage" src="../img/Jump_on_the_Beats.png"></a>
+        <!-- она и так в полном размере 6_9 -->
+        <p class="description"> В Jump on the Beats, Вам предстоит взять управление над очень милым существом, то есть мной. Я должен
+            пропрыгать по Битам ваших любимых песен! </p>
 
-    <h3 class="itemHeaders description detailed"> Характиристики товара </h3>
-    <ul class="itemCharacteristicsList">
-        <li> Красочная минималистичная графика </li>
-        <li> Уровень, генерируемый полностью с помощью музыки </li>
-        <li> Простейшее управление и быстрое осваивание </li>
-        <li> Различные эффекты визуализации музыки </li>
-        <li> Простой интерфейс и таблица результатов </li>
-        <li> И самый лучший саундтрек в мире ;) </li>
-    </ul>
+        <h3 class="itemHeaders"> Характиристики товара </h3>
 
-    <h3 class="itemHeaders"> Подробное описание товара </h3>
-    <p> Особенностью игры является то, что поведение Битов зависит от трека, который Вы загрузите в игру. Проще говоря,
-        вы сами можете управлять сложностью, скоростью, настроением игры, не прибегая к сложным настройкам, а лишь
-        загружая ваши треки, атмосферу которых, вы хотели бы передать игре. Спасибо и оставайтесь такими же
-        музыкальными! </p>
+        <table class="detailedItemTable">
+            <tr>
+                <td colspan="2"> Поддержка </td>
+                <td> Онлайн </td>
+                <td> Донат </td>
+            </tr>
+            <tr>
+                <td> Windows </td>
+                <td> Mac </td>
+                <td rowspan="4"> <span style="font-size: 26px">N<br>O<br>P<br>E</span> </td>
+                <td> да </td>
+            </tr>
+            <tr>
+                <td> Android </td>
+                <td> iOS </td>
+                <td> да</td>
+            </tr>
+            <tr>
+                <td> Linux </td>
+                <td> Wine </td>
+                <td> да </td>
+            </tr>
+            <tr>
+                <td> FreeBSD </td>
+                <td> KolibriOS </td>
+                <td> Не знаю </td>
+            </tr>
+        </table>
 
-    <p><b>Дата выхода:</b> 2014г. </p>
-    <p><b>Жанр:</b> Казуальные игры </p>
-    <hr>
-    <span> &#169; Все права защищены</span>
-</div>
+        <ul class="itemCharacteristicsList">
+            <li> Красочная минималистичная графика </li>
+            <li> Уровень, генерируемый полностью с помощью музыки </li>
+            <li> Простейшее управление и быстрое осваивание </li>
+            <li> Различные эффекты визуализации музыки </li>
+            <li> Простой интерфейс и таблица результатов </li>
+            <li> И самый лучший саундтрек в мире ;) </li>
+        </ul>
+
+        <h3 class="itemHeaders"> Подробное описание товара </h3>
+        <p class="description detailed"> Особенностью игры является то, что поведение Битов зависит от трека, который Вы
+            загрузите в игру. Проще говоря, вы сами можете управлять сложностью, скоростью, настроением игры, не прибегая
+            к сложным настройкам, а лишь загружая ваши треки, атмосферу которых, вы хотели бы передать игре.
+            Спасибо и оставайтесь такими же музыкальными! </p>
+
+        <p><b>Дата выхода:</b> 2014г. </p>
+        <p><b>Жанр:</b> Казуальные игры </p>
+
+        <div class="footer">
+            <hr>
+            <span> &#169; Все права защищены</span>
+        </div>
+    </div>
 </body>
 </html>
