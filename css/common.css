@@ -2,8 +2,13 @@ body {
     background-color: #f8f8f8;
 }
 
-.footer {
+.container {
+    width: 800px;
+    margin: auto;
+}
 
+.content {
+    padding-left: 25px;
 }
 
 .itemHeaders {
@@ -92,7 +97,6 @@ body {
     text-align: center;
     vertical-align: middle;
     box-shadow: 0 0 10px 2px #FF9421;
-
 }
 
 .detailedItemTable tr {
