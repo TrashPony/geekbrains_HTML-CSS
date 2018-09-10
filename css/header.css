@@ -86,4 +86,8 @@
     font-weight: bold;
     font-style: oblique;
     text-shadow: 1px 1px 2px #000000, 0 0 1em #000000;
+
+    display: inline-block; /* эти 3 параметру тут что бы клик */
+    width: 100%;  /* обрабатывался на всем элементе а не только в текст*/
+    height: 100%;
 }
