@@ -19,38 +19,36 @@
         <hr>
     </div>
     <div class="content">
-        <h1> Контакты </h1>
-        <h3> Форма обратной связи </h3>
-        <p> Для связи с нашим магазином пожалуйста заполните форму ниже и мы обязательно прочтем <s>(нет)</s> ваше
+        <span class="headers"> Форма обратной связи </span><br>
+        <span style="display: inline-block; margin-bottom: 10px">
+            Для связи с нашим магазином пожалуйста заполните форму ниже и мы обязательно прочтем <s>(нет)</s> ваше
             письмо!
-        </p>
-        <form>
-            <p>
-                <span> Ваше Имя: <input class="contactsInput" title="name" type="text" placeholder="Ваше имя"></span>
-                <span> Ваш e-mail: <input class="contactsInput" title="email" type="email" placeholder="E-mail"></span>
-            </p>
-
-            <span> Вам нравиться магазин: Да <input title="like" type="radio" name="like">  Нет <input title="like"
-                                                                                                       type="radio"
-                                                                                                       name="like"
-                                                                                                       checked> </span>
-
-            <h4> Тема письма </h4>
-            <input class="contactsInput" style="width: 490px" title="theme" type="text" placeholder="Тема письма">
-            <h4> Текст письма </h4>
-            <p><textarea style="text-transform: capitalize;" title="message" rows="5" cols="60" name="text"
-                         placeholder="Текст сообщения"></textarea></p>
-            <input type="submit" value="Отправить"> <input type="reset" value="Удоли">
+        </span>
+        <form class="sendForm">
+            <span> Ваше Имя: <input class="contactsInput" title="name" type="text" placeholder="Ваше имя"></span>
+            <span> Ваш e-mail: <input class="contactsInput" title="email" type="email" placeholder="E-mail"></span>
+            <br>
+            <span> Вам нравиться магазин: Да
+                <input title="like" type="radio" name="like">  Нет
+                <input title="like" type="radio" name="like" checked> </span>
+            <br>
+            <input class="contactsInput" style="width: 490px" title="theme" type="text" placeholder="Тема письма"><br>
+            <textarea style="text-transform: capitalize;" title="message" rows="3" cols="60" name="text"
+                      placeholder="Текст сообщения"></textarea>
+            <br>
+            <input type="submit" value="Отправить" class="button"> <input type="reset" value="Удоли" class="button">
         </form>
 
-        <h3> Наш Адрес </h3>
+        <span class="headers"> Наш Адрес </span>
+        <br>
         <span>Космодамианская наб., 24с1, Москва, 115035</span>
         <!-- код яндекса-->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841.1737391173892!2d37.640411469445795!3d55.7414
-        38322792284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ae4ce280c6b%3A0x2b7c7f11a1a82ff6!2z0JfQtNCw0L3Q
-        uNC1INCa0YDQuNCz0YHQutC-0LzQuNGB0YHQsNGA0LjQsNGC0LA!5e0!3m2!1sru!2sru!4v1536154983420" width="600" height="300"
-                frameborder="0" style="border:0" allowfullscreen></iframe>
-        <!-- код яндекса-->
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841.1737391173892!2d37.640411469445795!3d55.7414
+            38322792284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ae4ce280c6b%3A0x2b7c7f11a1a82ff6!2z0JfQtNCw0L3Q
+            uNC1INCa0YDQuNCz0YHQutC-0LzQuNGB0YHQsNGA0LjQsNGC0LA!5e0!3m2!1sru!2sru!4v1536154983420" allowfullscreen></iframe>
+            <!-- код яндекса-->
+        </div>
     </div>
     <div class="footer">
         <hr>
