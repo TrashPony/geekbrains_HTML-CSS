@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 800px;
+    background: url("../img/slider.jpg") no-repeat;
+}
+
+#logo {
+    background: url("../img/logo.png") no-repeat;
+    margin-top: 63px;
+    margin-left: 98px;
+    width: 185px;
+    height: 22px;
+    float: left;
+    display: inline-block;
+}
+
+#menu {
+    margin-top: 67px;
+    margin-right: 211px;
+    float: right;
+    display: inline-block;
+}
+
+#menu li {
+    padding-left: 16px;
+    float: left;
+    list-style-type: none;
+}
+
+#menu li a {
+    color: #8c8c8c;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #212121;
+    border-bottom: 2px solid black;
+}
+
+#search {
+    background: url("../img/search.png") no-repeat;
+    width: 23px;
+    height: 23px;
+    float: right;
+    margin-top: 16px;
+}
+
+.text {
+    text-align: left;
+    width: 458px;
+    float: left;
+    margin-top: 288px;
+    margin-left: 98px;
+}
+
+.text h3 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 22px;
+}
+
+.text h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    padding-bottom: 34px;
+}
+
+.text p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 32px;
+}
+
+.text a {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    background-color:  #ffffff;
+    box-shadow: 0 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    border-radius: 23px;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.text a:hover {
+    background:  #ffffff url("../img/arrow.png") no-repeat 173px 16px;
+}
+
+#slider {
+    margin-top: 634px;
+    margin-left: 60px;
+    float: left;
+}
+
+#slider li {
+    background: url("../img/no-active-slide.png") no-repeat 0 5px;
+    display: inline-block;
+    height: 40px;
+    width: 30px;
+    list-style-type: none;
+}
+
+#slider li:hover {
+    background: url("../img/active-slide.png") no-repeat 0 0;
+    width: 40px;
+}
