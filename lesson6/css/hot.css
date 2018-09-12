@@ -1,0 +1,47 @@
+#hot {
+    background: url("../img/hot.jpg");
+    width: 1366px;
+    height: 800px;
+    float: left;
+}
+
+#hot h3 {
+    color: #e53935;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 99px;
+    margin-top: 287px;
+    margin-bottom: 22px;
+}
+
+#hot h1 {
+    color: #212121;
+    font-size: 62px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 99px;
+    margin-bottom: 34px;
+}
+
+#hot p {
+    color: #6c6c6c;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    width: 458px;
+    margin-left: 99px;
+    margin-bottom: 32px;
+}
+
+#hot a {
+    margin-left: 99px;
+}
+
+#hot .slider {
+    margin-top: 160px;
+    margin-left: 623px;
+}

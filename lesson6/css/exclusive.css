@@ -1,0 +1,42 @@
+.exclusive {
+    height: 683px;
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.exclusive h3 {
+    margin-top: 228px;
+    margin-left: 51px;
+    color: #1e88e5;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.exclusive h2 {
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    margin-left: 51px;
+    margin-bottom: 24px;
+}
+.exclusive p {
+    color: #6c6c6c;
+    font-size: 13.99px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0022); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    width: 374px;
+    height: 36px;
+    margin-left: 51px;
+    margin-bottom: 34px;
+}
+
+.exclusive a {
+    margin-left: 51px;
+}

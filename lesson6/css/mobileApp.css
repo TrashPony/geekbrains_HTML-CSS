@@ -1,0 +1,46 @@
+#mobileApp {
+    width: 1366px;
+    height: 516px;
+    float: left;
+    background-image: url("../img/modileApp.jpg");
+}
+
+#mobileApp h3 {
+    color: #6c6c6c;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    width: 407px;
+    margin-top: 125px;
+    margin-left: 99px;
+    margin-bottom: 22px;
+}
+
+#mobileApp h1 {
+    color: #212121;
+    font-size: 62px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    width: 490px;
+    margin-left: 99px;
+    margin-bottom: 26px;
+}
+
+#mobileApp p {
+    color: #6c6c6c;
+    font-size: 22px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    width: 490px;
+    margin-left: 99px;
+}
+
+.mobileButton {
+    width: 135px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
