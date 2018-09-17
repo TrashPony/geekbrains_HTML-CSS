@@ -29,3 +29,7 @@
     margin-bottom: 30px;
     float: left;
 }
+
+#TrendingProductsPicBlock div:hover {
+    outline: 1px solid black;
+}

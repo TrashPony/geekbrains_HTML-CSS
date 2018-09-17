@@ -1,11 +1,21 @@
-#content {
-    width: 1366px;
-    margin: 0 auto;
-}
-
 #header {
     height: 800px;
     background: url("../img/slider.jpg") no-repeat;
+}
+
+#productsHead {
+    height: 360px;
+    background: url("../img/products-head.jpg") no-repeat;
+}
+
+#productsHead .text {
+    width: 675px;
+    margin-top: 128px;
+    margin-left: 98px;
+    color:  #212121;
+    font-size: 62px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px;/* Приближение из-за подстановки шрифтов */
 }
 
 #logo {
@@ -43,7 +53,7 @@
 
 #menu li a:hover {
     color: #212121;
-    border-bottom: 2px solid black;
+    box-shadow: 0 1px 0 #000;
 }
 
 #search {

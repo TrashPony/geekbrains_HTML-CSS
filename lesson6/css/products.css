@@ -1,0 +1,61 @@
+#products {
+    height: 1965px;
+}
+
+#productsSlide {
+    margin-top: 71px;
+    margin-left: 105px;
+    float: left;
+}
+
+#productsSlide li {
+    list-style-type: none;
+    float: left;
+}
+
+#productsSlide li {
+    list-style-type: none;
+    float: left;
+    color: #6c6c6c;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    display: block;
+    border-bottom: 1px solid black;
+    padding-right: 20px;
+}
+
+#productsSlide li:hover {
+    color: #212121;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+    border-bottom: 3px solid black;
+}
+
+#reload {
+    background: url("../img/reload_icon.png") no-repeat;
+    width: 42px;
+    height: 29px;
+    display: inline-block;
+    background-size: contain;
+    margin: 71px 565px;
+}
+
+#reload:hover {
+    -webkit-animation: rotation 800ms infinite linear;
+}
+
+#reload:active {
+    width: 30px;
+    height: 24px;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}

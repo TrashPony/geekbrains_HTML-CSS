@@ -19,6 +19,10 @@
     background-image: url("../img/selectProduct.jpg");
 }
 
+#selectItem:hover {
+    outline: 1px solid black;
+}
+
 .items {
     width: 270px;
     height: 270px;
@@ -26,6 +30,10 @@
     float: left;
     margin-left: 30px;
     margin-bottom: 30px;
+}
+
+.items:hover {
+    outline: 1px solid black;
 }
 
 #selectItem h3 {
