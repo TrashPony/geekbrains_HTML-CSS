@@ -1,0 +1,194 @@
+#detailProduct {
+    height: 1626px;
+}
+
+#headLine {
+    height: 70px;
+    background: url("../img/backLine.jpg") no-repeat;
+}
+
+#headLine ul {
+    display: block;
+    margin: 28px 360px;
+    float: left
+}
+
+#headLine ul li {
+    float: left;
+    list-style-type: none;
+    color:  #6c6c6c;
+    font-size: 17.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0006);
+    margin: 0 15px;
+}
+
+#headLine ul li:hover {
+    color:  #212121;
+    font-size: 17.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+}
+
+#detailSlider {
+    height: 923px;
+    float: left;
+    width: 50%;
+}
+
+#slider > div {
+    position: relative;
+}
+
+#SelectProduct {
+    width: 570px;
+    height: 570px;
+    background: url("../img/detailProduct_3.jpg");
+    position: absolute;
+    top:72px;
+    left: 98px;
+}
+
+.noSelectProduct {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    z-index: 2;
+    top: 653px;
+}
+
+#noSelectProduct_1 {
+    left: 248px;
+}
+#noSelectProduct_2 {
+    left: 328px;
+}
+#noSelectProduct_3 {
+    left: 408px;
+}
+
+.noSelectProduct:hover {
+    opacity: 0.5;
+}
+
+#noSelectProduct_1:hover ~ #SelectProduct {
+    background: url("../img/detailProduct_1.jpg") no-repeat;
+    background-size: contain;
+}
+
+#noSelectProduct_2:hover ~ #SelectProduct {
+    background: url("../img/detailProduct_2.jpg") no-repeat;
+    background-size: contain;
+}
+
+#noSelectProduct_3:hover ~ #SelectProduct {
+    background: url("../img/detailProduct_3.jpg") no-repeat;
+    background-size: contain;
+}
+
+#detailSpecification {
+    height: 923px;
+    float: right;
+    width: 50%;
+}
+
+#detailSpecification h3 {
+    margin-top: 119px;
+    color:  #212121;
+    font-size: 35.98px;
+    font-weight: 700;
+    transform: scaleY(1.0005);
+    margin-left: 196px;
+}
+
+#detailSpecification h4 {
+    margin-top: 23px;
+    color:  #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    transform: scaleY(1.0005);
+    margin-left: 264px;
+}
+
+.price {
+    color:  #212121;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    font-size: 72px;
+    transform: scaleY(1.0005);
+}
+
+#buyButton {
+    background-color:  #f44336;
+    box-shadow: 0 4px 8.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    border-radius: 36px;
+    margin-left: 56px;
+    margin-top: 31px;
+    color:  #ffffff;
+    font-size: 21.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 71px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005)
+}
+
+#buyButton:hover {
+    background:  #f44336 url("../img/arrowBuyButton.png") no-repeat 343px 23px;
+}
+
+#buyButton:active {
+    box-shadow: none;
+}
+
+#detailSpecification p {
+    color:  #212121;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0005);
+    margin-top: 49px;
+    margin-left: 61px;
+    width: 499px;
+}
+
+#RelatedProducts {
+    height: 561px;
+    float: left;
+}
+
+#RelatedProducts h1 {
+    float: left;
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    margin-left: 98px;
+}
+
+
+#RelatedProductsPicBlock {
+    width: 1200px;
+    height: 800px;
+    float: left;
+    margin-left: 98px;
+    margin-top: 64px;
+}
+
+#RelatedProductsPicBlock div {
+    width: 370px;
+    height: 370px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+#RelatedProductsPicBlock div:hover {
+    outline: 1px solid black;
+}

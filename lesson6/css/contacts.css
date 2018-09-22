@@ -1,0 +1,64 @@
+#contactBlock {
+    height: 563px;
+}
+
+#addressBlocks {
+    margin-top: 71px;
+    margin-left: 98px;
+}
+
+#addressBlocks > div {
+    height: 370px;
+    width: 370px;
+    border: 1px solid black;
+    float: left;
+    margin: 0 15px;
+}
+
+#addressBlocks > div:hover {
+    outline: 2px solid black;
+}
+
+#addressBlocks > div > div {
+    width: 38px;
+    height: 48px;
+    background: url("../img/markStreet.png") no-repeat;
+    margin-top: 48px;
+    margin-left: 166px;
+}
+
+#addressBlocks h3 {
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin-top: 34px;
+}
+
+#addressBlocks h4 {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+    text-align: center;
+}
+
+#addressBlocks span {
+    color: #212121;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 20.082px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    display: block;
+}
+
+#addressBlocks span:last-child {
+    color: #6c6c6c;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 20.082px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0041); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}

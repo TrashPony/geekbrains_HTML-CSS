@@ -8,6 +8,11 @@
     background: url("../img/products-head.jpg") no-repeat;
 }
 
+#detailProductsHead {
+    height: 119px;
+    background: none;
+}
+
 #productsHead .text {
     width: 675px;
     margin-top: 128px;
